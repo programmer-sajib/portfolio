@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sajib Hossen</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #524aa650;
+      }
+      h1 {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        cursor: pointer;
+      }
+      .strong-uppercase {
+        font-weight: bold;
+        color: #522664;
+        font-family: sans-serif;
+        color: crimson;
+        position: relative;
+        left: 80%;
+        transition: all 0.5s ease;
+      }
+      .span-end {
+        position: relative;
+        left: 170%;
+        transition: all 0.5s ease;
+      }
+      h1:hover .span-end,
+      h1:hover .strong-uppercase {
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span> Welcome to</span>
+      <strong class="strong-uppercase">Sajib Hossen</strong>
+      <span class="span-end">World!</span>
+    </h1>
+  </body>
+</html>
