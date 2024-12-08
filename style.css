@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", "sans-serif";
+}
+.topBanner {
+  min-height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(58, 123, 213, 0.226),
+      rgba(0, 208, 255, 0.87)
+    ),
+    url(images/top-banner.png) no-repeat;
+  background-size: cover;
+}
+.halfWidth {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding: 2%;
+}
+.halfWidth img {
+  width: 100%;
+}
+.halfWidth p {
+  text-align: justify;
+  color: dimgray;
+}
+.halfWidth .myName {
+  font-family: "Montserrat", serif;
+  color: crimson;
+}
+/* 
+.headContainer {
+  background: #00d2ff; 
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); 
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); 
+
+  height: 100vh;
+  display: flex;
+   background-image: linear-gradient(
+    109.6deg,
+    rgba(112, 246, 255, 0.33) 11.2%,
+    rgba(221, 108, 241, 0.26) 42%,
+    rgba(229, 106, 253, 0.71) 71.5%,
+    rgb(123, 183, 253) 100.2%
+  ); 
+  -webkit-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
+}
+.headContainer > .introduction {
+  padding: 0.4rem 1.2rem;
+}
+.headContainer > section {
+  width: 50%;
+}
+.headContainer > .profile {
+  text-align: center;
+  margin: 0 auto;
+}
+.headContainer > section > img {
+  width: 80%;
+  margin-top: 50px;
+} */
+
+.middleBanner {
+  min-height: 100vh;
+  background-color: #4158d0;
+  background: url(images/dream-bg.png) no-repeat right,
+    linear-gradient(43deg, #4159d059 0%, #c850c0ad 46%, #ffcc70 100%);
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.hireMeButton {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+.hireMeButton {
+  margin: 10px 0;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 10px #3a7bd5;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  width: max-content;
+}
+
+.hireMeButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
