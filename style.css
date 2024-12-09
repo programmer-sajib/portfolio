@@ -17,7 +17,7 @@ body {
   background-size: cover;
 }
 .halfWidth {
-  width: 40%;
+  width: 35%;
   float: left;
   margin-left: 5%;
   padding: 2%;
@@ -81,6 +81,12 @@ body {
   background: url(images/dream-bg.png) no-repeat right,
     linear-gradient(43deg, #4159d059 0%, #c850c0ad 46%, #ffcc70 100%);
 }
+.experiences {
+  padding-top: 100px;
+  min-height: 100vh;
+  background: url(images/exp-bg.png) no-repeat left center,
+    linear-gradient(45deg, rgba(255, 202, 150, 0.8), rgba(200, 255, 160, 0.4));
+}
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -118,4 +124,43 @@ h1 {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+.box {
+  margin-top: 200px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 4px;
+}
+#fullStack {
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, #fc4a1a, #f7b733);
+  border-image-slice: 1;
+}
+#frontEnd {
+  border-left: 10px solid;
+  border-image: linear-gradient(180deg, #00f260, #0575e6);
+  border-image-slice: 1;
+}
+h4 {
+  color: #f09819;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 202, 150, 0.8),
+    rgba(200, 255, 160, 0.4)
+  );
+}
+
+@media screen and (max-width: 600px) {
+  .halfWidth {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    padding: 20px;
+  }
 }
